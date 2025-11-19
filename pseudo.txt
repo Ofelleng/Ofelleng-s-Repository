@@ -1,0 +1,23 @@
+1.-enter positive input
+  - continue entering positive number until a value less than 1 is entered
+  -then stop the option for entering new value
+  -search the data for the largest value entered and print it
+  
+  
+2.-enter your name input
+  -store the data in a variable called first_name
+  -then inside the print "hello,world" followed by the value of the input, name in this case.
+  
+3. first extract the arbitrary number of integers or manually input them
+- add up all the numbers then divide them by the total of the numbers provide
+-print the value obtained
+
+4.extract a grocery list and print out all the products inside the list
+-remove every product that has been bought
+-sort the remaining products
+- return the products to list format
+-print list
+
+5.- first the computer must read the provided data X and Y
+  - make new variables which will be made up of X,Y and other numbers using mathematical operators
+  - print all the new variables made   

@@ -46,8 +46,9 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #003366;
+  color: #002244;
   font-weight: 600;
+  padding: 0.5rem 0.75rem;
 }
 
 nav a:hover,
@@ -82,7 +83,7 @@ p {
 }
 
 a {
-  color: #005fcc;
+  color: #0047ab;
 }
 
 a:hover {
@@ -95,9 +96,10 @@ ul {
 }
 
 
-:focus {
-  outline: 3px solid #ffbf47;
-  outline-offset: 3px;
+nav a:hover,
+nav a:focus-visible { 
+  text-decoration: underline;
+  color: #001a33; 
 }
 
 
@@ -105,4 +107,5 @@ ul {
   html {
     scroll-behavior: auto;
   }
+
 }

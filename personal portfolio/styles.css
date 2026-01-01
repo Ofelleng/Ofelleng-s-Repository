@@ -86,10 +86,13 @@ p {
 
 a {
   color: #0047ab;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
 }
 
 a:hover {
   color: #003d80;
+   text-decoration-thickness: 2px
 }
 
 
@@ -111,4 +114,5 @@ nav a:focus-visible {
   }
 
 }
+
 

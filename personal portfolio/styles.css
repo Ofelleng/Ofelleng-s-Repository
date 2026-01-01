@@ -52,10 +52,7 @@ nav a {
   display: inline-block
 }
 
-nav a:hover,
-nav a:focus {
-  text-decoration: underline;
-}
+
 
 
 h1,
@@ -92,7 +89,7 @@ a {
 
 a:hover {
   color: #003d80;
-   text-decoration-thickness: 2px
+   
 }
 
 
@@ -100,12 +97,23 @@ ul {
   padding-left: 1.25rem;
 }
 
+a:hover,
+a:focus-visible {
+  color: #003d80;
+  text-decoration-thickness: 2px;
+}
 
 nav a:hover,
-nav a:focus-visible { 
+nav a:focus-visible {
   text-decoration: underline;
-  color: #001a33; 
+  color: #001a33;
+  outline: 3px solid #ffbf47;
+  outline-offset: 3px;
 }
+
+
+
+
 
 
 @media (prefers-reduced-motion: reduce) {
@@ -114,5 +122,6 @@ nav a:focus-visible {
   }
 
 }
+
 
 
